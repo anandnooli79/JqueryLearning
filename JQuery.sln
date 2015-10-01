@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JQueryWeb", "JQueryWeb\JQueryWeb.csproj", "{54A209E2-5797-4A0A-8859-B223CC2976DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JQuery.Domain", "JQuery.Domain\JQuery.Domain.csproj", "{042EA27C-E0BE-44BB-A110-59A3D608D0EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54A209E2-5797-4A0A-8859-B223CC2976DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54A209E2-5797-4A0A-8859-B223CC2976DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54A209E2-5797-4A0A-8859-B223CC2976DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54A209E2-5797-4A0A-8859-B223CC2976DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{042EA27C-E0BE-44BB-A110-59A3D608D0EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{042EA27C-E0BE-44BB-A110-59A3D608D0EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{042EA27C-E0BE-44BB-A110-59A3D608D0EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{042EA27C-E0BE-44BB-A110-59A3D608D0EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
