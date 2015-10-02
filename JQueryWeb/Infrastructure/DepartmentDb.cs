@@ -31,5 +31,10 @@ namespace JQueryWeb.Infrastructure
                 return Departments;
             }
         }
+
+        void IDepartmentDataSource.Save()
+        {
+            SaveChanges();
+        }
     }
 }

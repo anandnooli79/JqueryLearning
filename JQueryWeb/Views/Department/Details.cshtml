@@ -1,0 +1,29 @@
+﻿@model JQuery.Domain.Department
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>@Model.Name</h2>
+
+    @Html.ActionLink("Create an Employee", "Create", "Employee", new { departmentId = @Model.Id }, null)
+   
+    <hr />
+    <table>
+        <tr>
+            <th>Name</th>
+            <th> </th>
+        </tr>
+        @foreach (var item in Model.Employees)
+        {
+            <tr>
+                <td>
+                    @item.Name
+                </td>
+                <td>
+
+                </td>
+            </tr>
+        }
+    </table>
+</div>

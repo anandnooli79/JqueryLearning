@@ -1,4 +1,27 @@
-﻿@{
-    ViewBag.Title = "Home Page";
+﻿@model IEnumerable<JQuery.Domain.Department>
+
+@{
+    ViewBag.Title = "Departments";
 }
 
+<h2>Departments</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.ActionLink(item.Name, "Details", "Department", new { id = item.Id },null)
+        </td>
+    </tr>
+}
+
+</table>
